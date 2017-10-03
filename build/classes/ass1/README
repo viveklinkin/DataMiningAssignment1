@@ -1,0 +1,11 @@
+- Run make to compile and then run make ass1 to run the program. 
+- Edit the program to feed the filename of the input csv.
+
+
+Classes: 
+AltC         - Main class to run
+MainC        - Multithreaded version of the same.
+FileOps      - File operations
+Data         - one file of the data object, and also specifies functions relating to data, like reduction and distances.
+WorkerThread - The thread that runs as a part of the multithreaded version.
+TestC        - Dummy class.
